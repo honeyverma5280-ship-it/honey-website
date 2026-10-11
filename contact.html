@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Join Us | NEXUS ESPORTS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        NEXUS<span>⚡</span>ESPORTS
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="about.html">About</a></li>
+
+        <li><a href="games.html">Games</a></li>
+
+        <li><a href="gallery.html">Gallery</a></li>
+
+        <li><a href="contact.html" class="active">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+
+<section class="page-header">
+
+    <h1>JOIN <span>NEXUS</span></h1>
+
+    <p>Show us your skills and become part of the squad.</p>
+
+</section>
+
+
+<!-- PLAYER REGISTRATION -->
+
+<section class="form-section">
+
+    <h2>🎮 PLAYER REGISTRATION</h2>
+
+    <form onsubmit="showMessage(event)">
+
+        <input type="text"
+        placeholder="Your Full Name"
+        required>
+
+        <input type="email"
+        placeholder="Email Address"
+        required>
+
+        <input type="text"
+        placeholder="Gaming Username / IGN"
+        required>
+
+        <select required>
+
+            <option value="">
+                Select Your Main Game
+            </option>
+
+            <option>BGMI</option>
+
+            <option>Valorant</option>
+
+            <option>Free Fire</option>
+
+            <option>EA FC</option>
+
+            <option>Other</option>
+
+        </select>
+
+
+        <select required>
+
+            <option value="">
+                Gaming Experience
+            </option>
+
+            <option>Beginner</option>
+
+            <option>Intermediate</option>
+
+            <option>Competitive Player</option>
+
+            <option>Professional Experience</option>
+
+        </select>
+
+
+        <textarea
+        placeholder="Tell us about your gaming achievements..."
+        required></textarea>
+
+
+        <button type="submit"
+        class="btn primary-btn">
+
+            SUBMIT APPLICATION ⚡
+
+        </button>
+
+    </form>
+
+</section>
+
+
+
+<!-- PRODUCT / GAME ENQUIRY -->
+
+<section class="form-section">
+
+    <h2>🎯 GAME / TEAM ENQUIRY</h2>
+
+    <form onsubmit="showMessage(event)">
+
+        <input type="text"
+        placeholder="Your Name"
+        required>
+
+        <input type="email"
+        placeholder="Email"
+        required>
+
+        <textarea
+        placeholder="Which game or esports team would you like to enquire about?"
+        required></textarea>
+
+
+        <button type="submit"
+        class="btn secondary-btn">
+
+            SEND ENQUIRY
+
+        </button>
+
+    </form>
+
+</section>
+
+
+
+<!-- FEEDBACK -->
+
+<section class="form-section">
+
+    <h2>💬 COMMUNITY FEEDBACK</h2>
+
+    <form onsubmit="showMessage(event)">
+
+        <input type="text"
+        placeholder="Your Name"
+        required>
+
+
+        <textarea
+        placeholder="Tell us what you think about NEXUS ESPORTS..."
+        required></textarea>
+
+
+        <button type="submit"
+        class="btn primary-btn">
+
+            SEND FEEDBACK 💜
+
+        </button>
+
+    </form>
+
+</section>
+
+
+<div id="messageBox"></div>
+
+
+<footer>
+
+    <h2>NEXUS ⚡ ESPORTS</h2>
+
+    <p>See you in the arena. 🎮</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
